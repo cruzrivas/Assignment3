@@ -56,3 +56,27 @@ switch(day) {
     default:
     console.log(`Your input was invalid. Please try again.`)
 }
+// Problem 4
+var num1 = Number(prompt("Enter number 1:"));
+var num2 = Number(prompt("Enter number 2:"));
+    console.log(`The sum of ${num1} and ${num2} is: ` + (num1 + num2));
+    console.log(`The product of ${num1} and ${num2} is: ` + (num1 * num2));
+    console.log(`The difference of ${num1} and ${num2} is: ` + (num1 - num2));
+    console.log(`${num1} divided by ${num2} is: ` + (num1 / num2));
+    console.log(`The modulo of ${num1} and ${num2} is: ` + (num1 % num2));
+
+// Problem 5
+    var wrong = 1;
+    var tries = 3;
+    password = `secret`;
+    var passwordInput=prompt(`Please enter your password`);
+    if (passwordInput = password) 
+    console.log(`You have successfully logged in after ` + wrong + `attempt`)
+    if (wrong == 4) 
+    console.log("Your account is locked! You failed to enter the correct password " + wrong + " times");
+      while (tries > 0) 
+        tries--;
+        var retryPassword = prompt("Enter the password again")
+        if (retryPassword == password) 
+        console.log("You entered the correct password after " + wrong + " attempt(s)")
+    
